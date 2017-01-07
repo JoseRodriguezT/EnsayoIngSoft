@@ -15,8 +15,7 @@ public class Edad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Declaracion de varaiables
-        int año_act, año_nac;
+       
         
     }
     
