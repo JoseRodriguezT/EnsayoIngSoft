@@ -25,6 +25,8 @@ public class Edad {
        anionac=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el año de nacimiento"));
        edad=anio_act-anionac;
        
+       //Salida de datos
+       JOptionPane.showMessageDialog(null,"Su edad es: "+edad);
     }
     
 }
