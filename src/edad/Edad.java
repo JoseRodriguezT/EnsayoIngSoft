@@ -15,7 +15,8 @@ public class Edad {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+       //Declaracion de variables
+       int anio_act, anionac;
         
     }
     
