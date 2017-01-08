@@ -5,6 +5,8 @@
  */
 package edad;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author JR
@@ -16,8 +18,13 @@ public class Edad {
      */
     public static void main(String[] args) {
        //Declaracion de variables
-       int anio_act, anionac;
-        
+       int anio_act, anionac, edad;
+       
+       //Proceso
+       anio_act=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el año actual"));
+       anionac=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el año de nacimiento"));
+       edad=anio_act-anionac;
+       
     }
     
 }
